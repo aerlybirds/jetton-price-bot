@@ -32,7 +32,7 @@ async function updateDescription() {
           offer_address: AEAddress,
           ask_address: PTONAddress,
           units: 1000000000,
-          slippage_tolerance: 0.001,
+          slippage_tolerance: 0.1,
         },
       }
     );
@@ -44,7 +44,7 @@ async function updateDescription() {
           offer_address: USDTAddress,
           ask_address: PTONAddress,
           units: 1000000000,
-          slippage_tolerance: 0.001,
+          slippage_tolerance: 0.1,
         },
       }
     );
